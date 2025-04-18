@@ -1,6 +1,6 @@
 # FedBlockParadox
 
-This repository contains a custom-built simulator for decentralized federated learning systems, developed as part of our master's degree thesis between February 2024 and October 2024. The simulator is implemented in Python and is designed to replicate the behavior of a blockchain-assisted federated learning system in a fully decentralized environment. It supports the simulation of various configurations, allowing experimentation with different consensus mechanisms, validation techniques, and aggregation methods.
+This repository contains a custom-built simulator for decentralized federated learning systems. The simulator is implemented in Python and is designed to replicate the behavior of a blockchain-assisted federated learning system in a fully decentralized environment. It supports the simulation of various configurations, allowing experimentation with different consensus mechanisms, validation techniques, and aggregation methods.
 
 The simulator aims to facilitate research and analysis in decentralized federated learning, providing a powerful tool to study vulnerabilities, test defensive mechanisms, and evaluate system performance under diverse configurations.
 
@@ -10,7 +10,7 @@ The simulator aims to facilitate research and analysis in decentralized federate
 
 - **Flexible Configuration**: Use a JSON configuration file to customize datasets, node behaviors, consensus algorithms (e.g., PoW, PoS, committee-based), and validation mechanisms.
 - **Malicious Node Behavior**: Simulate common malicious trainer behaviors such as label flipping, additive noise, and targeted data poisoning.
-- **Dataset Management**: Partition datasets into IID or N-IID subsets, allowing for diverse training scenarios.
+- **Dataset Management**: Partition datasets into IID or N-IID subsets, allowing diverse training scenarios.
 - **Consensus Algorithms**: Explore the impact of Proof-of-Work, Proof-of-Stake, and committee-based consensus algorithms on federated learning.
 - **Validation and Aggregation**: Test multiple validation and aggregation mechanisms to evaluate their effectiveness in improving system robustness.
 
@@ -47,7 +47,7 @@ The simulator aims to facilitate research and analysis in decentralized federate
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/federicocaroli/FedBlockParadox.git
+git clone https://github.com/necst/FedBlockParadox
 cd FedBlocKParadox
 ```
 
@@ -96,7 +96,7 @@ You can use Docker to simplify dependency management and ensure consistency acro
 Clone the repository (if you haven’t already) and navigate to its directory:
 
 ```bash
-git clone https://github.com/federicocaroli/FedBlockParadox.git
+git clone https://github.com/necst/FedBlockParadox
 cd FedBlockParadox
 ```
 
